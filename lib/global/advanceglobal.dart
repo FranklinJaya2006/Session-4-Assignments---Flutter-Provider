@@ -18,7 +18,7 @@ class GlobalAdvancedCounterApp extends StatelessWidget {
 class GlobalAdvancedCounterHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final globalState = Provider.of<GlobalState>(context); // 
+    final globalState = Provider.of<GlobalState>(context); // melakukan Global Access
 
     return Scaffold(
       appBar: AppBar(title: Text('Global Advanced Counter')),
