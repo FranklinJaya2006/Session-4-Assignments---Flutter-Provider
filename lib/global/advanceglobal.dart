@@ -66,7 +66,7 @@ class GlobalAdvancedCounterHomePage extends StatelessWidget {
                   onPressed: () => globalState.removeCounter(index),
                 ).animate() .fade(duration: 500.ms),
               ],
-            ),
+            ) .animate() .slide(),
           );
         }),
       ),
